@@ -1,6 +1,6 @@
 module debouncer(
 	input i_clk, i_sig,
-	output o_ sig
+	output o_sig
 	);
 	reg q0 = 0, q1 = 0;
 	
@@ -11,4 +11,4 @@ module debouncer(
 		q1 <= q0;
 	end
 	
-	endmodule
+endmodule
