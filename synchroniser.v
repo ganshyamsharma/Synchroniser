@@ -1,4 +1,4 @@
-module debouncer(
+module sync(
 	input i_clk, i_sig,
 	output o_sig
 	);
