@@ -5,4 +5,7 @@ care of the metastability issues arising due to setup/hold time violations in se
 - i_clk: Input clock
 - i_sig: Asynchronous input signal
 - o_sig: Synchronised output signal (Active only for one clock period)
+# Synchroniser + Debouncer
+Added functionality of taking care of bouncing of mechanical push buttons.
+
 
